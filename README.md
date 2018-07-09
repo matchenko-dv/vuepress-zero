@@ -1,6 +1,6 @@
 # VuePress
 
-It **only** takes one **README.md** file to create and deploy a VuePress site. 
+It **only** takes one **README.md** file to create a VuePress site. 
 The simplicity of this high quality documentation system is the beauty of VuePress. 
 
 
@@ -8,33 +8,29 @@ It’s also possible to ``vuepress eject`` and get a fully blown Vue site that c
 
 Generate an [Initial VuePress Site](https://vuepress.vuejs.org/guide/getting-started.html#global-installation) official documentation.  
 
-### Step 1 
+## Step 1 
  
 ::: warning  COMPATIBILITY NOTE
 VuePress requires Node.js >= 8 and npm >= 5.2
 :::  
 
-|&nbsp;[Download Node.js and npm](https://nodejs.org/en/) &nbsp;|&nbsp;&nbsp; [Read the docs!](https://www.npmjs.com/get-npm)|  
+To check if you have Node.js and npm installed, run this command in your terminal:
 
-To check if you have Node.js installed, run this command in your terminal:
+|  ``node -v``  | **and** |  ``npm -v``  |  
 
-``node -v``  
-
-To confirm that you have npm installed you can run this command in your terminal:
-
-``npm -v``  
+|&nbsp;[Download Node.js and npm](https://nodejs.org/en/) &nbsp;|&nbsp;&nbsp; [Read the docs for upgrading](https://www.npmjs.com/get-npm)|  
 
 
-### Step 2  
 
+## Step 2  
 
 
 ```bash 
 # Create the project folder
-mkdir vuepress && cd vuepress  
+mkdir myProject && cd myProject  
 
 # Create a README.md file with markdown formatted content
-echo # VuePress > README.md
+echo # Hello VuePress > README.md
 
 # Install VuePress temporary for this node process only with development server
 npx vuepress dev  
@@ -93,7 +89,7 @@ Options for [markdown-it-table-of-contents](https://github.com/Oktavilla/markdow
 
 All headers with Level 2 (##) and Level 3 (###) will go into TOC. This can be customized.
 
-```bash  
+````
 # Table of Contents
 
 [[toc]]
@@ -102,9 +98,6 @@ All headers with Level 2 (##) and Level 3 (###) will go into TOC. This can be cu
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
 Lorem Ipsum has ...
 
-## Why do we use it?
-It is a long established fact that a reader will be distracted by the readable content 
-of a page when looking ...
 
 ### Where does it come from?
 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece 
@@ -114,10 +107,7 @@ of classical Latin literature...
 used since the 1500s is reproduced below for those interested. 
 Sections 1.10.32 and 1.10.33 from "de Finibus...
 
-### Where can I get some?
-There are many variations of passages of Lorem Ipsum available, but the majority have
-suffered alteration in some form, by injected humour,...
-```  
+````  
 
 ### Result
 <img src="http://res.cloudinary.com/iicamp/image/upload/v1530788601/VuePress/toc-04.png" />  
@@ -165,6 +155,8 @@ nvm install 8.1.0 (any version number - nvm = Node Version Manager)
 yarn upgrade --latest
 yarn global add vuepress # OR npm install -g vuepress
 ```  
+
+
 
 
 
