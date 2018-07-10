@@ -1,0 +1,28 @@
+{
+  "name": "VuePress-Zero",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iwilfried/vuepress-zero.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iwilfried/vuepress-zero/issues"
+  },
+  "homepage": "https://github.com/iwilfried/vuepress-zero#readme",
+  "devDependencies": {
+    "vuepress": "^0.11.0"
+  }
+}
