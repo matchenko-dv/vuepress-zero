@@ -1,21 +1,23 @@
 {
   "name": "VuePress-Zero",
   "version": "1.0.0",
-  "description": "It **only** takes one **README.md** file to create a VuePress site. \r The simplicity of this high quality documentation system is the beauty of VuePress.",
+  "description": "The simplicity of this high quality documentation system is the beauty of VuePress.",
   "main": "index.js",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/iwilfried/vuepress-zero.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Wilfried Ifland",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/iwilfried/vuepress-zero/issues"
   },
