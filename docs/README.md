@@ -48,8 +48,8 @@ npx vuepress dev
 open http://localhost:8080
 ```  
 
-With this **README.md** file and the installation of the **VuePress** package, you have a professional 
-layout out of the box with this features. 
+With this **README.md** file and the installation of the **VuePress** package, you have a ``professional 
+layout out of the box`` with this features. 
 
 - Responsive layout
 - Optional Homepage
@@ -60,11 +60,9 @@ layout out of the box with this features.
 
 
 ### Result  
-**README.md** file with one line markdown code  
-
-``# VuePress ``
+**README.md** file with one line of markdown content  ``# VuePress ``
   
-gives you this responsive layout with header, search box and menu icon out of the box.
+gives you this responsive layout ``header``, ``search box`` and ``menu icon`` out of the box.
 
 <img src="http://res.cloudinary.com/iicamp/image/upload/v1530689700/VuePress/Group_1_2x.png" />
 	 
