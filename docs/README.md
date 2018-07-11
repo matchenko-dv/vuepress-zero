@@ -24,7 +24,10 @@ To check if you have Node.js and npm installed, run this command in your termina
 
 |&nbsp;[Download Node.js and npm](https://nodejs.org/en/) &nbsp;|&nbsp;&nbsp; [Read the docs for upgrading](https://www.npmjs.com/get-npm)|  
 |  [Download Yarn](https://yarnpkg.com/lang/en/docs/install/#windows-stable)  |   [Download Git](https://git-scm.com/downloads)  |  
-Download Visual Studio Code  |
+
+Optional:  
+
+|  [Download Visual Studio Code](https://code.visualstudio.com/download)  |  [ GitHub Desktop](https://desktop.github.com/)
 
 
 
