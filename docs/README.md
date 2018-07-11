@@ -6,9 +6,12 @@ The simplicity of this high quality documentation system is the beauty of VuePre
 
 It’s also possible to ``vuepress eject`` and get a fully blown Vue site that compiles in components and works offline.  
 
-Generate an [Initial VuePress Site](https://vuepress.vuejs.org/guide/getting-started.html#global-installation) official documentation.  
+Generate an [Initial VuePress Site](https://vuepress.vuejs.org/guide/getting-started.html#global-installation) 
+official documentation or use this tutorial.  
 
-## Step 1 
+## Local Development
+
+### Step 1 
  
 ::: warning  COMPATIBILITY NOTE
 VuePress requires Node.js >= 8 and npm >= 5.2
@@ -19,10 +22,11 @@ To check if you have Node.js and npm installed, run this command in your termina
 |  ``node -v``  | **and** |  ``npm -v``  |  
 
 |&nbsp;[Download Node.js and npm](https://nodejs.org/en/) &nbsp;|&nbsp;&nbsp; [Read the docs for upgrading](https://www.npmjs.com/get-npm)|  
+yarn  |   git  |
 
 
 
-## Step 2  
+### Step 2  
 
 
 ```bash 
