@@ -1,6 +1,6 @@
 # VuePress
 
-It **only** takes one **README.md** file to create a VuePress site. 
+It **only** takes one **README.md** file to create and deploy a VuePress site. 
 The simplicity of this high quality documentation system is the beauty of VuePress. 
 
 
