@@ -118,7 +118,7 @@ Sections 1.10.32 and 1.10.33 from "de Finibus...
 ### Result  
 
 <br />
-<img src="http://res.cloudinary.com/iicamp/image/upload/bo_1px_solid_rgb:090909/v1531385156/toc-05_gmel2a.png" />  
+<img src="http://res.cloudinary.com/iicamp/image/upload/v1531390957/toc-05_xml4wp.png" />  
 <br />  
 
 ### Tips and Tricks:  
