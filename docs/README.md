@@ -85,7 +85,6 @@ VuePress compiles ``README.md`` files using **markdown-it**. You can find the ma
 
 ### Step 3  
 #### Built-in markdown extensions optimized for technical documentation  
-
 #### Config Reference
 #### ``markdown.toc``
 - Type: ``Object``    
@@ -94,7 +93,7 @@ VuePress compiles ``README.md`` files using **markdown-it**. You can find the ma
 Options for [markdown-it-table-of-contents](https://github.com/Oktavilla/markdown-it-table-of-contents). 
 (Note: prefer ``markdown.slugify`` if you want to customize header ids.)  
 
-All headers with Level 2 (##) and Level 3 (###) will go into TOC. This can be customized.
+All headers with Level 2 (##) and Level 3 (###) will go automatically into TOC (Table of Contents). This can be customized.
 
 ````
 # Table of Contents
@@ -116,8 +115,11 @@ Sections 1.10.32 and 1.10.33 from "de Finibus...
 
 ````  
 
-### Result
-<img src="http://res.cloudinary.com/iicamp/image/upload/v1530788601/VuePress/toc-04.png" />  
+### Result  
+
+<br />
+<img src="http://res.cloudinary.com/iicamp/image/upload/bo_1px_solid_rgb:090909/v1531385156/toc-05_gmel2a.png" />  
+<br />  
 
 ### Tips and Tricks:  
 
