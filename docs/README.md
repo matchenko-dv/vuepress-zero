@@ -60,7 +60,7 @@ gives you this responsive layout `header`, `search box` and `menu icon` out of t
 
 <img src="http://res.cloudinary.com/iicamp/image/upload/v1530689700/VuePress/Group_1_2x.png" />
 
-Each markdown file is compiled into HTML with **markdown-it** and then processed as the template of a Vue component. This allows you to directly use Vue inside your markdown files and is great when you need to embed dynamic content.  
+Each markdown file is compiled into HTML with **markdown-it** and then processed as the template of a Vue component. This allows you to directly use Vue inside your markdown files and is great when you need to embed dynamic content.
 
 VuePress compiles `README.md` files using **markdown-it**. You can find the markdown-it syntax in this demo
 [Markdown-it demo](https://markdown-it.github.io/)
