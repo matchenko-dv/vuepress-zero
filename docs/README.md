@@ -1,6 +1,12 @@
 # VuePress
 
 It **only** takes one **README.md** file to create and deploy a VuePress site.
+The simplicity of this high quality documentation system is the beauty of VuePress.
+
+It’s also possible to `vuepress eject` and get a fully blown Vue site that compiles in components and works offline.
+
+Generate an [Initial VuePress Site](https://vuepress.vuejs.org/guide/getting-started.html#global-installation)
+official documentation or use this `tutorial.`
 
 ## Local Development
 
