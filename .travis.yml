@@ -2,6 +2,6 @@ language: nodejs
 node_js:
   - "lts/*"
 before_script:
-    npm install
+   - npm install
 script:
-  deploy.sh
+ - deploy.sh
