@@ -20,5 +20,8 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/iwilfried/vuepress-zero/issues"
+  },
+  "devDependencies": {
+    "vuepress": "^0.12.0"
   }
 }
