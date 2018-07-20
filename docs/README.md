@@ -8,7 +8,7 @@ It’s also possible to `vuepress eject` and get a fully blown Vue site that com
 Generate an [Initial VuePress Site](https://vuepress.vuejs.org/guide/getting-started.html#global-installation)
 official documentation or use this `tutorial.`
 
-## Local Development
+## Local Developments
 
 ### Step 1
 
