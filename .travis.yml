@@ -4,5 +4,5 @@ node_js:
 before_script:
    - npm install
 script:
- - bash scripts/deploy.sh
+ - bash ./scripts/deploy.sh
  
