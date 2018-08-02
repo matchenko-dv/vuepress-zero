@@ -5,8 +5,6 @@ It **only** takes one **README.md** file to create and deploy a VuePress site.
 The simplicity of this high quality documentation system is the beauty of VuePress. 
 
 
-[Tutorial](https://zen-poitras-597bc0.netlify.com) 
-
 ## One-Click Deploy
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/iwilfried/vuepress-boilerplate)
