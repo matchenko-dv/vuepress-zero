@@ -1,27 +1,59 @@
 {
   "name": "VuePress-Zero",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "The simplicity of this high quality documentation system is the beauty of VuePress.",
-  "main": "index.js",
+  "keywords": [
+    "documentation",
+    "vue",
+    "generator"
+  ],
+  "homepage": "https://github.com/owner/project#readme",
+ "bugs": {
+    "url": "https://github.com/wuyaoxing/vuepress-theme-material/issues"
+  },
+  "homepage": "https://github.com/wuyaoxing/vuepress-theme-material#readme",
+  "licence": "MIT",
+  "author": {
+    "name":
+    "email":
+    "url"
+  }
+"repository": {
+  "repository": "gitlab:user/repo"
+}
   "directories": {
     "doc": "docs"
   },
+
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "clean": "rimraf docs/.vuepress/dist/*",
+    "test": "rm -rf docs/.vuepress/dist && yarn docs:build && stat docs/.vuepress/dist/index.html"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/iwilfried/vuepress-zero.git"
-  },
-  "keywords": [],
-  "author": "Wilfried Ifland",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/iwilfried/vuepress-zero/issues"
-  },
+
+"dependencies": {
+    "bootstrap-vue": "^2.0.0-rc.11",
+    "markdown-it": "^8.4.1",
+    "markdown-it-emoji": "^1.4.0",
+    "markdown-it-katex": "^2.0.3",
+    "vue-material": "^1.0.0-beta-10.2"
+  }
+
   "devDependencies": {
-    "vuepress": "^0.12.0"
+    "vuepress": "^0.12.0",
+    "conventional-changelog": "^1.1.23",
+    "eslint": "^4.19.1",
+    "eslint-plugin-vue-libs": "^3.0.0",
+    "vuepress-theme-vue": "^1.0.2",
+    "yorkie": "^1.0.3",
+    "highlight.js": "^9.12.0",
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "browserslist": [
+    ">1%"
+  ]
   }
 }
