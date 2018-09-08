@@ -14,13 +14,15 @@
   "homepage": "https://github.com/wuyaoxing/vuepress-theme-material#readme",
   "licence": "MIT",
   "author": {
-    "name":
-    "email":
-    "url"
-  }
+    "name": "name",
+    "email": "fg@gmail.com",
+    "url": "www.jkh"
+  },
+  
 "repository": {
   "repository": "gitlab:user/repo"
-}
+},
+  
   "directories": {
     "doc": "docs"
   },
@@ -38,7 +40,7 @@
     "markdown-it-emoji": "^1.4.0",
     "markdown-it-katex": "^2.0.3",
     "vue-material": "^1.0.0-beta-10.2"
-  }
+  },
 
   "devDependencies": {
     "vuepress": "^0.12.0",
