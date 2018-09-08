@@ -16,7 +16,10 @@
   "author": {
     "name": "name",
     "email": "fg@gmail.com",
-    "url": "www.jkh"
+    "url": "www.jkh",
+    "contributors": [
+        "Brian Faust <brian@ark.io>"
+    ]
   },
   
 "repository": {
