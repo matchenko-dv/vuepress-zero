@@ -1,8 +1,22 @@
-language: nodejs
+language: node_js
 node_js:
-  - "lts/*"
-before_script:
-   - npm install
+  - "10"
+install:
+ - npm install -g vuepress
 script:
- - bash ./scripts/deploy.sh
- 
+ - npm run docs:build
+cache:
+    directories:
+        - "node_modules"
+notifications:
+    email: false
+deploy:
+    provider: pages
+    skip-cleanup: true
+    local_dir: docs/.vuepress/dist
+    github-token: ${GH_TOKEN}  # Set in the settings page of your repository, as a secure variable
+    repo: ${GH_USER}/${GH_REPO}    # Set in the settings page of your repository, as a secure variable
+    keep-history: true
+    target-branch: gh-pages
+    on:
+        branch: master
