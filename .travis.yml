@@ -2,7 +2,8 @@ language: node_js
 node_js:
   - "10"
 env:
- - GH_BASE="/vuepress-zero/"
+  global:
+    - GH_BASE="/vuepress-zero/"
 install:
  - npm install -g vuepress
 script:
