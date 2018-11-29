@@ -5,6 +5,7 @@ env:
   global:
     - GH_BASE="/vuepress-zero/"
 install:
+ - npm install
  - npm install -g vuepress
 script:
  - npm run docs:build
