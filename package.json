@@ -22,9 +22,12 @@
       "Brian Faust <brian@ark.io>"
     ]
   },
+  
   "repository": {
-    "repository": "https://github.com/iwilfried/vuepress-zero"
+  "type": "git",
+  "url": "https://github.com/iwilfried/vuepress-zero.git"
   },
+
   "directories": {
     "doc": "docs"
   },
