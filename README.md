@@ -6,7 +6,7 @@
 
 # VuePress
 
-https://iwilfried.github.io/vuepress-zero/  
+**Demo:** https://iwilfried.github.io/vuepress-zero/  
 
 The simplicity of this high quality documentation system is the beauty of VuePress. 
 
