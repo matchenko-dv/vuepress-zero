@@ -1,6 +1,5 @@
 
 [![Build Status](https://travis-ci.org/iwilfried/vuepress-zero.svg?branch=master)](https://travis-ci.org/iwilfried/vuepress-zero)
-
 <a href="https://www.npmjs.org/package/markdown-it" rel="nofollow"><img src="https://img.shields.io/npm/v/markdown-it.svg?style=flat" alt="NPM version" /> </a> &nbsp; 
 
 
