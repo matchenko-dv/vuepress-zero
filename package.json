@@ -5,23 +5,25 @@
   "keywords": [
     "documentation",
     "vue",
+    "vuepress",
     "generator"
   ],
-  "homepage": "https://github.com/wuyaoxing/vuepress-theme-material#readme",
+  "homepage": "https://github.com/iwilfried/vuepress-zero#readme",
+  
   "bugs": {
-    "url": "https://github.com/wuyaoxing/vuepress-theme-material/issues"
+    "url": "https://github.com/iwilfried/vuepress-zero/issues"
   },
   "licence": "MIT",
   "author": {
-    "name": "name",
-    "email": "fg@gmail.com",
-    "url": "www.jkh",
+    "name": "Wilfried Ifland",
+    "email": "wilfried.iflandg@gmail.com",
+    "url": "https://iwilfried.github.io/vuepress-zero/",
     "contributors": [
       "Brian Faust <brian@ark.io>"
     ]
   },
   "repository": {
-    "repository": "gitlab:user/repo"
+    "repository": "https://github.com/iwilfried/vuepress-zero"
   },
   "directories": {
     "doc": "docs"
@@ -33,15 +35,13 @@
     "test": "rm -rf docs/.vuepress/dist && yarn docs:build && stat docs/.vuepress/dist/index.html"
   },
   "dependencies": {
-    "bootstrap-vue": "^2.0.0-rc.11",
     "markdown-it": "^8.4.1",
     "markdown-it-emoji": "^1.4.0",
-    "markdown-it-katex": "^2.0.3",
-    "vue-material": "^1.0.0-beta-10.2",
-    "element-ui": "^2.4.0"
+    "markdown-it-katex": "^2.0.3"
   },
+  
   "devDependencies": {
-    "vuepress": "^0.12.0",
+    "vuepress": "^0.14.8",
     "conventional-changelog": "^1.1.23",
     "eslint": "^4.19.1",
     "eslint-plugin-vue-libs": "^3.0.0",
