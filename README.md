@@ -22,8 +22,8 @@ you can find under [vuepress.vuejs.org/guide/deploy](https://vuepress.vuejs.org/
 To try it out locally, clone this repo and generate a static site
 
 ```bash
-git clone https://github.com/anishkny/vuepress-base
-cd vuepress-base
+git clone https://github.com/iwilfried/vuepress-zero
+cd vuepress-zero
 npm install
 npm run build
 ```
