@@ -36,6 +36,7 @@
     "docs:build": "vuepress build docs",
     "clean": "rimraf docs/.vuepress/dist/*",
     "test": "rm -rf docs/.vuepress/dist && yarn docs:build && stat docs/.vuepress/dist/index.html"
+    "now-build": "npm run docs:build && mv docs/.vuepress/dist dist"
   },
   
   "dependencies": {
