@@ -33,6 +33,5 @@ npm run build
 
 For more information, see [VuePress Docs](https://vuepress.vuejs.org)
 
-
-
+Check Zeit now deployment
 
