@@ -26,9 +26,6 @@ To try it out locally, clone this repo and generate a static site
 yarn global add vuepress@next 
 # OR npm install -g vuepress@next
 
-# create a markdown file
-echo '# Hello VuePress' > README.md
-
 # start writing
 vuepress dev
 
