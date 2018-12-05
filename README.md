@@ -22,10 +22,18 @@ you can find under [vuepress.vuejs.org/guide/deploy](https://vuepress.vuejs.org/
 To try it out locally, clone this repo and generate a static site
 
 ```bash
-git clone https://github.com/iwilfried/vuepress-zero
-cd vuepress-zero
-npm install
-npm run build
+# install
+yarn global add vuepress@next 
+# OR npm install -g vuepress@next
+
+# create a markdown file
+echo '# Hello VuePress' > README.md
+
+# start writing
+vuepress dev
+
+# build to static files
+vuepress build
 ```
 
 For more information, see [VuePress Docs](https://vuepress.vuejs.org)
