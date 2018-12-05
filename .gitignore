@@ -2,6 +2,6 @@
 *.log
 .temp
 node_modules/
-docs/.vuepress/dist/
+docs/.vuepress/dist/*
 yarn.lock
 package-lock.json
