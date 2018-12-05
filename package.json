@@ -19,7 +19,6 @@
     "email": "wilfried.iflandg@gmail.com",
     "url": "https://iwilfried.github.io/vuepress-zero/",
     "contributors": [
-      "Brian Faust <brian@ark.io>"
     ]
   },
   
@@ -41,21 +40,12 @@
   "dependencies": {
     "markdown-it": "^8.4.1",
     "markdown-it-emoji": "^1.4.0",
-    "markdown-it-katex": "^2.0.3",
-    "vuetify": "^1.2.5"
+    "markdown-it-katex": "^2.0.3"
   },
   
   "devDependencies": {
     "vuepress": "^0.14.8",
-    "conventional-changelog": "^1.1.23",
-    "eslint": "^4.19.1",
-    "eslint-plugin-vue-libs": "^3.0.0",
-    "vuepress-theme-vue": "^1.0.2",
-    "yorkie": "^1.0.3",
-    "highlight.js": "^9.12.0",
-    "axios": "^0.18.0",
-    "nprogress": "^0.2.0",
-    "sweetalert": "^2.1.0"
+
   },
   "engines": {
     "node": ">=8"
