@@ -12,7 +12,7 @@
 The simplicity of this high quality documentation system is the beauty of VuePress. 
 
 
-Documentation of other free server deployments like GitHub Pages, Gitlab Pages, Gitlab CLI, Google Firebase, Surge, Heroku 
+Documentation of free server deployments with GitHub Pages, Gitlab Pages, Gitlab CLI, Google Firebase, Surge, Heroku 
 you can find under [vuepress.vuejs.org/guide/deploy](https://vuepress.vuejs.org/guide/deploy.html)  
 
 
