@@ -26,6 +26,9 @@ To try it out locally, clone this repo and generate a static site
 yarn global add vuepress@next 
 # OR npm install -g vuepress@next
 
+git clone https://github.com/iwilfried/vuepress-zero.git
+cd vuepress-zero
+
 # start writing
 vuepress dev
 
