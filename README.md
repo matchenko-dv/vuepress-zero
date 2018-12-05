@@ -18,7 +18,7 @@ you can find under [vuepress.vuejs.org/guide/deploy](https://vuepress.vuejs.org/
 
 ## One-click Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/iwilfried/vuepress-zero)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/matchenko-dv/vuepress-zero/tree/netlify)
 
 ## Local Development
 
